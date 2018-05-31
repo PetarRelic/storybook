@@ -8,7 +8,7 @@ const session = require('express-session');
 const passport = require('passport');
 
 
-//load user model
+//load models
 require('./models/User');
 require('./models/Story');
 
